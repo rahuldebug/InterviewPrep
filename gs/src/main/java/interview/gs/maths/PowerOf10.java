@@ -18,7 +18,7 @@ public class PowerOf10 {
         System.out.println(isPowerOf10(99));
     }
     public static boolean isPowerOf10(int x){
-        if (x==10) return true;
+        if (x==10||x==1) return true;
         if (x%10!=0||x==0)return false;
         return isPowerOf10(x/10);
     }

@@ -12,7 +12,7 @@ package interview.gs.maths;
  **/
 
 public class DotProduct {
-    long dotProduct(int[] array1, int array2[]) {
+    long dotProduct(int[] array1, int[] array2) {
         return (long) array1[0] * array1[1] + array2[0] + array2[1];
     }
 }
